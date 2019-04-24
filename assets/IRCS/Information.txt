@@ -1,0 +1,7 @@
+Font:
+MicrogrammaDEEBolExt
+Gobold bold
+
+Color:
+Yellow  =>   C=100 M=76 Y=5 K=10
+Bleu    =>   C=2 M=24 Y=99 K=0
