@@ -132,7 +132,7 @@ h1, h2, h3, h4, h5, h6{margin: 0px !important;}
 .shadows{text-shadow: 2px 2px 18px #333;}
 .h2{font-size: 46px; line-height: 46px; margin-bottom: 40px !important;}
 .h3{font-size: 30px; font-family: 'regular', sans-serif; font-weight: normal; text-transform: uppercase; color: #222222;}
-.h4{font-size: 20px; margin-bottom: 10px !important;}
+.h4{font-size: 20px; margin-bottom: 10px !important; font-family: 'black'}
 .h5{font-size: 16px; font-family: 'bold', sans-serif; text-transform: uppercase; color: #222222; margin-bottom: 20px !important;}
 .small{font-size: 14px; line-height: 24px;}
 .normall{font-size: 16px; line-height: 28px;}
@@ -205,7 +205,7 @@ form input[type="submit"]{position: absolute; left: 0px; top: 0px; opacity: 0; w
 
 /*video*/
 .block.type-1 *{-webkit-bakface-visibility: hidden;}
-video.bgvid {position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%; width: auto; height: auto; background: url(assets/intro_for_ipad.jpg) no-repeat; background-size: cover;}
+video.bgvid {position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%; width: auto; height: auto; background: url(img/banner-home-ircs.jpg) no-repeat; background-size: cover;}
 
 @media (max-width: 767px) {
     video.bgvid {width: 100%; height: 100%; background: url(img/intro_for_ipad_mini.jpg) no-repeat; /*background-size: cover;*/}
@@ -214,7 +214,8 @@ video.bgvid {position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 05 - HEADER */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-header{position: fixed; left: 0px; top: 0px; width: 100%; z-index: 11; -webkit-backface-visibility: hidden;}
+header{position: fixed; left: 0px; top: 0px; width: 100%; z-index: 11; -webkit-backface-visibility: hidden;     background: rgba(0,0,0,0.25);
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.15);}
 #logo{position: relative; float: left; margin-left: 50px; margin-top: 35px;}
 #logo img{position: relative; float: left;}
 #logo img.act{position: absolute; left: 0px; top: 0px; opacity:0;}
@@ -2099,5 +2100,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
     padding-top: 0px;
     padding-bottom: 50px;
 }
-
+.block.espacio-superior {
+margin-top: 50px !important;
+}
 .new-block.color-dark{background: #fcc012; color: #fcc012;}
+.video-ajuste{width: 100% !important;}
